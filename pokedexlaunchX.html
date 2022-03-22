@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="style.ccs.css">
+
+</head>
+
+<body>
+    <div class="intro">
+
+        <h1>Pokedex LaunchX!!!</h1>
+        <h2>Uso de HTML/JS y pokeAPI</h2>
+        <h5>By A. Paz</h5>
+    </div>
+    <div class="pokedex">
+        <div class="pokeImg">
+            <p> <img src="img/Pokebola-pokeball-png-0.png" id="pokeImg" width="150px"></p>
+        </div> <br> <br> <br> <br> <br>
+        <div class="input">
+            <input type="text" placeholder="Ingresa tu pokémon hdtpm" id="pokeName"><br>
+        </div>
+        <hr>
+        <div class="buttons">
+            <div class="changepokemon">
+                <button onclick="fetchPokemon()">Cambiar pokémon</button>
+            </div>
+            <div class="button2">
+                <button>Button 2</button>
+            </div>
+        </div>
+    </div>
+    <div class="pokemon"></div>
+</body>
+<footer>
+    <script src="./pokedex.js"></script>
+</footer>
+
+</html>
